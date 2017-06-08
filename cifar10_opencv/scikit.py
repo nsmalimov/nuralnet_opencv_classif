@@ -93,7 +93,4 @@ def train_test():
 
     print(f1)
 
-    # pickle_write(rf, "rf.pkl")
-
-
 train_test()

@@ -116,10 +116,3 @@ print(len(train_labels))
 images_train = get_image_features(path_to_train, False)
 
 pickle_write(images_train, "images_train.pkl")
-
-# images_test = get_image_features(path_to_test, True)
-
-# pickle_write(images_test, "images_test.pkl")
-
-# for i in images_train:
-#    print len(images_train[i][0])
